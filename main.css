@@ -12,57 +12,80 @@
 */
 
 a:link, a:visited {
-	color: blue;
+	color: #0034c4;
+	text-decoration: none;
 }
 
 a:focus, a:hover {
-	background-color: #ddddff;
+	color: #0034c4;
 	border-radius: 5px;
 	text-decoration: underline;
+	text-decoration-color: #0034c4;
 	transition-duration: 0.2s;
 	transition-property: background;
 }
 
 body {
-
+	font-family: Helvetica, sans-serif;
+	background-color: #181818;
 }
 
 code {
-	
-}
-
-h1, h2, h3 {
-
+	background-color: #223363;
+	color: #ffffff;
+	padding: 0 5px;
 }
 
 h1 {
-
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
 }
 
 h2 {
-
+	text-align: center;
+	font-size: 24px;
+	padding: 10px 0;
+	font-weight: 600;
 }
 
 h3 {
-	
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
 }
 
 header {
-	
+	margin: 0 5%;
+	padding: 1em 0;
+	color: #000000;
+	background-color: #ececec54;
+	max-width: 800px;
 }
 
 main {
-
+	margin: 0 5%;
+	max-width: 800px;
 }
 
 p {
-
+	font-size: 14px;
+	margin: 5px 0;
+	padding: 10px 20px;
 }
 
 #intro {
-
+	background-color: #ecececee;
+	margin: 5px 0;
+	padding: 1em 0;
+	line-height: 180%;
+	font-weight: 500;
 }
 
 #how-does-it-work, #influence, #joke {
-
+	background-color: #ecececee;
+	margin: 5px 0;
+	padding: 1em 0;
+	line-height: 140%;
 }
