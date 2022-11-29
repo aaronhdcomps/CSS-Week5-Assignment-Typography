@@ -5,4 +5,4 @@ This assignment is to demonstrate the ability to effectively style and format ty
 
 The goal is by only editing the CSS stylesheet, format the text so that it follows the rules and guidelines we learned about this week.
 
-Site validated on 
+Site validated on 11/29/22 @ 3:23pm
